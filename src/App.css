@@ -1,0 +1,178 @@
+
+
+body, html{
+    font-family: "Oswald", sans-serif;
+}
+
+.mb-lg-0{
+    margin:0 auto;
+}
+.header-1{
+    background:#e1ebfa;
+    width:100%;
+    
+}
+.img-header{
+    width:100%;
+    border-radius:61% 39% 39% 61% / 66% 52% 48% 34% ;
+}
+.font-w{
+width:50%;
+}
+.fw-normal{
+    font-family: "Playwrite BE VLG", cursive;
+    color:#A30000;
+    font-size: larger;
+    background:linear-gradient(120deg,#fff3cd, #fff3cd);
+    background-size: 100% 20%;
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+}
+.fw-normal-1{
+    font-family: "Playwrite BE VLG", cursive;
+    color:#A30000;
+    font-weight:500;
+    font-size: smaller;
+    background:linear-gradient(120deg,#b8e1ff,#b8e1ff );
+    background-size: 100% 20%;
+    background-position: 0% 80%;
+    background-repeat: no-repeat;
+}
+.t-you{
+    font-weight: 900;
+    width:100%;
+}
+.text-f{
+    border-bottom: linear-gradient(120deg,#e4a0a1,#e4a0a1);
+    font-weight: 600;
+}
+
+.fw-bolder {
+    font-weight: bolder !important;
+    width: 96%;
+    font-size: 35rem;
+    margin-left: 2rem;
+}
+.section2{
+    background-image: url(https://bootstrapbrain.com/demo/templates/wave/wave-lite/assets/img/cta/cta-img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.span2{
+    background: linear-gradient(120deg, #e4a0a1, #e4a0a1);
+    background-position: 0 80%;
+    background-size: 100% 20%;
+    background-repeat: no-repeat;
+}
+.div-text{
+    position: absolute;
+    margin-top: -32rem ;
+    margin-left: 10% !important;
+}
+.curs{
+    font-weight: 700;
+}
+.image{
+    margin-top: 1rem;
+}
+
+.bi-arrow-right-short{  
+    margin-top: -17px;
+    margin-left: 5rem;
+
+}  
+.hov-img{
+    width:24rem;
+} 
+.hov-img:hover .hov-1{
+    transform: scale(0.9);
+    width:24rem;
+    opacity: 1;
+}
+.div-img{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.div-main:hover .div-img{
+    transform: scale(1);
+}
+.div-sub{
+    opacity: 0;
+    transition: all 0.5s;
+    color:white;
+
+}
+.div-main:hover .div-sub{
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.548);
+}
+
+/* .custom-width-div{
+    max-width:1200px !important
+} */
+
+
+
+/* #navbarSupportedContent{
+    margin-left: 256px;
+}
+.font-t{
+    font-size: xxx-large;
+    line-height: normal;
+}
+.fw-bolder-1{
+    font-size: -webkit-xxx-large;
+    font-weight: 800;
+}
+.fw-bolder-2{
+    font-weight: 800;
+    font-size: 59px;
+    margin-top: 5rem;
+} */
+
+
+
+
+
+
+@media (max-width:991px){
+    #flex{
+        flex-direction:column;
+    }
+    .div-main{
+        width: 14.5rem;
+    }
+    .navbar-collapse{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:640px) {
+    .img-sec{
+        margin:0 auto;
+    }
+    .div-main{
+        width: 18rem;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+}    
+@media (min-width:320px){
+    .div-text{
+        position: absolute;
+        margin-top: -32rem ;
+        margin-left: 1% !important;
+    }
+    .fw-bolder{
+        margin-left: 0rem;
+        font-size: 40px;
+    }
+  
+}
+
+
+
+
+
